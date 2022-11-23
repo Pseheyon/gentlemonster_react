@@ -64,7 +64,7 @@ export default function Main(){
                             <ul className="sheet_sun">
                                 
                                     <li >
-                                        <Link to='detail01'><img src="https://pseheyon.github.io/gentlemonster_reacthttps://pseheyon.github.io/gentlemonster_react/img/main/sun_01.png" alt="sun"/></Link>
+                                        <Link to='detail01'><img src="https://pseheyon.github.io/gentlemonster_react/img/main/sun_01.png" alt="sun"/></Link>
                                         <div className="txt_product ">
                                             <span>론디01</span>
                                             <span>259,000원</span>

@@ -19,8 +19,8 @@ export default function Main(){
         <div className="main_outer main">
             <Container className="main_wrap">
                 
-                
-                    <div className="M_box col-md-6">
+                    <div className="mbox_wrap">
+                    <div className="M_box ">
                         <Mbox>
                             <h2>PRODUCT</h2>
                         <p className="p_main">새로운 메탈 장식이 프레임에 각인된 2022 PRE-COLLECTION.<br/>
@@ -31,15 +31,18 @@ export default function Main(){
                             <Link to='/sub/sub01'><Button01 className="con_main_btn">more</Button01></Link>
                         </Mbox>
                         </div>
-                    <div className="M_box col-md-6 main_01_img">
+                        
+                    <div className="M_box col-md-5 main_01_img">
                         <img src="https://pseheyon.github.io/gentlemonster_react/img/main/con1.png" alt=""></img>
                     </div>
+                    </div>
                 
-                
-                    <div className="M_box col-md-5">
+                    <div className="mbox_wrap">
+                    <div className="M_box s_img_mbox">
                         <img src="https://pseheyon.github.io/gentlemonster_react/img/main/con2.png" alt=""></img>
                     </div>
-                    <div className="M_box col-md-7">
+                    
+                    <div className="M_box ">
                         <Mbox>
                             <h2>PRODUCT</h2>
                         <p className="p_main">새로운 메탈 장식이 프레임에 각인된 2022 PRE-COLLECTION.<br/>
@@ -49,6 +52,7 @@ export default function Main(){
                             7개의 다양한 컬렉션 프레임을 만나보세요.</p>
                             <Link to='/sub/sub02'> <Button01 className="con_main_btn">more</Button01> </Link>
                         </Mbox>
+                    </div>
                     </div>
                 
                 <section className="product">

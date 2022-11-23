@@ -13,7 +13,7 @@ export default function Sub01(){
         
         <Container className="sub01">
             
-            <div className="big1" width='640px'><img width='640px'src="'https://pseheyon.github.io/gentlemonster_react/img/sub/big01.png" alt="" /></div>
+            <div className="big1" width='640px'><img width='640px'src="https://pseheyon.github.io/gentlemonster_react/img/sub/big01.png" alt="" /></div>
             {
                 data1.map((sub1, i)=>{
                     return(
